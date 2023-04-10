@@ -1,0 +1,97 @@
+/*------------------------------------------------------------------
+    [Table of contents]
+
+    1.Body
+    2.Heading
+    3.buttons
+    4.logo
+-------------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------------
+    1. Body
+-------------------------------------------------------------------*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+     height: 100%;
+     width: 100%;
+     background-color: #d2d6de;
+     background-position: center;
+     background-size: cover;
+     position: absolute;
+  
+}
+.wrapper .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+/*------------------------------------------------------------------
+    1. Heading
+-------------------------------------------------------------------*/
+
+
+.center h1{
+     color: black;
+     font-size: 50px;
+     font-weight: bold;
+     width: 900px;
+     text-align: center;
+}
+.center h2{
+    background-color: yellowgreen;
+    color: black;
+    font-size: 30px;
+    margin: 3% auto;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+/*------------------------------------------------------------------
+    1. Buttons
+-------------------------------------------------------------------*/
+
+
+.center .buttons{
+    margin: 35px  280px;
+}
+.buttons button{
+    height: 60px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background: orange;
+    border: 1px solid black;
+    outline: none;
+    cursor:pointer;
+    border-radius: 25px;
+}
+.buttons .btn{
+    margin-left: 35px;
+}
+
+/*------------------------------------------------------------------
+    1. logo
+-------------------------------------------------------------------*/
+
+
+.logo-fssai{
+    margin: 10px auto;
+    text-align: center;
+}
+.logo-fssai img{
+  width: 600px;
+ 
+}
